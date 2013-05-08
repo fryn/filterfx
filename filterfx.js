@@ -9,7 +9,7 @@
  *   filterfx.opacity(.5).hueRotate(120).dropShadow(8, 8, 0, '#0bf');
  */
 
-var fxfilter = Object.freeze({
+var filterfx = Object.freeze({
   grayscale: function(amount) {
     return this.append(
       '<feColorMatrix type="matrix" values="' + [
